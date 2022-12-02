@@ -1,4 +1,6 @@
-import * as React from "react";
 export const Button = () => {
-  return <button>Boop</button>;
+  const onClick = () => {
+    console.log('Boop!');
+  }
+  return <button onClick={onClick}>Boop</button>;
 };
